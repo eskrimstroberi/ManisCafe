@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_muda"
+    tools:context=".MainActivity">
+
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="180dp"
+        android:src="@drawable/manis" />
+
+  </FrameLayout>
+
+  <Button
+      android:id="@+id/btnUser"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/button_rounded"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="400dp"
+      android:text="User"
+      android:backgroundTint="@color/pink_tua"/>
+
+  <Button
+      android:id="@+id/btnMenu"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/btnUser"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/button_rounded"
+      android:text="Menu"
+      android:backgroundTint="@color/pink_tua"/>
+
+  <Button
+      android:id="@+id/btnMeja"
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/btnMenu"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/button_rounded"
+      android:text="Meja"
+      android:backgroundTint="@color/pink_tua"/>
+
+</RelativeLayout>
